@@ -25,8 +25,8 @@ int main()
 		
 	/*
 	DP[i][j] is max of:
-	1. Value of i'th item plus value obtained by selecting (i-1) items and excluding the weight of i'th item.
-	2. Value of (i-1) items by excluding the i'th item. 
+	1. Value of i'th item plus maximum value obtained by selecting (i-1) items and excluding the weight of i'th item.
+	2. Maximum value obtained by selecting (i-1) items by excluding the i'th item. 
 	*/
 	
 	for(int i = 1; i <= n; i++)
