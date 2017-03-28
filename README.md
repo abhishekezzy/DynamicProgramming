@@ -14,4 +14,5 @@ Solution:
 For every item, you can either include the item in the Knapsack or exclude it. Thus to get the maximum value obtained by selecting out of n items, we need to compute the maximum of the following two values:
 1. ( Including the n'th item ) Value of the n'th item plus the maximum value obtained from (n - 1) items and excluding the weight of n'th item. 
 2. (Excluding the n'th item) Maximum value obtained from (n - 1) items. 
+
 If weight of the n'th item is greater than total weight, then n'th item is excluded. (Case 2)
